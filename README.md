@@ -146,8 +146,8 @@
 ---
 
 # Summary  
-### Total Open Issues: 1  
-- BookBounty - Not handling file types correctly (https://github.com/TheWicklowWolf/BookBounty/issues/28)  
+### Total Open Issues: 0  
+No open issues found.  
 ### Total Open PRs: 1  
 - PlaylistDir - Support ascending playlist creation and sub-folders. (https://github.com/TheWicklowWolf/PlaylistDir/pull/3)  
-#### Last Updated: 18:15:03 on 25-Nov-2024
+#### Last Updated: 19:08:49 on 25-Nov-2024
