@@ -1,0 +1,125 @@
+name: Auto-Update README with Open Items
+permissions:
+  contents: write  
+on:
+  schedule:
+    - cron: '55 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Git
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+
+    - name: Fetch open items from all repos
+      id: fetch_issues
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        echo "Starting to fetch open issues and PRs for each repository..."
+
+        total_issues=0
+        total_prs=0
+        issue_list=""
+        pr_list=""
+        
+        # Fetch all repos
+        repos=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
+          "https://api.github.com/users/TheWicklowWolf/repos?per_page=100")
+        
+        # Iterate through each repo
+        for repo in $(echo "$repos" | jq -r '.[].name'); do
+          echo "Processing repository: $repo"
+        
+          issues=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
+            "https://api.github.com/repos/TheWicklowWolf/$repo/issues?state=open&per_page=100")
+     
+          repo_issues=$(echo "$issues" | jq '[.[] | select(.pull_request == null)]')
+          repo_prs=$(echo "$issues" | jq '[.[] | select(.pull_request != null)]')
+
+          issues_count=$(echo "$repo_issues" | jq 'length')
+          prs_count=$(echo "$repo_prs" | jq 'length')
+
+          total_issues=$((total_issues + issues_count))
+          total_prs=$((total_prs + prs_count))
+        
+          if [ "$issues_count" -gt 0 ]; then
+            new_issues=$(echo "$repo_issues" | jq -r --arg repo "$repo" \
+              '[.[] | "\($repo) - \(.title) (\(.html_url))"] | join("twwtwwtwwtww")')            
+            if [ -z "$issue_list" ]; then
+              issue_list="$new_issues"
+            else
+              issue_list="${issue_list}twwtwwtwwtww${new_issues}"
+            fi     
+          fi
+        
+          if [ "$prs_count" -gt 0 ]; then
+            new_prs=$(echo "$repo_prs" | jq -r --arg repo "$repo" \
+              '[.[] | "\($repo) - \(.title) (\(.html_url))"] | join("twwtwwtwwtww")')
+            if [ -z "$pr_list" ]; then
+              pr_list="$new_prs"
+            else
+              pr_list="${pr_list}twwtwwtwwtww${new_prs}"
+            fi
+          fi
+        done       
+        
+        echo "total_issues=$total_issues" >> $GITHUB_ENV
+        echo "Total open issues count: $total_issues"
+
+        echo "total_prs=$total_prs" >> $GITHUB_ENV
+        echo "Total open PRs count: $total_prs"
+
+        echo "issue_list=$issue_list" >> $GITHUB_ENV
+        echo "Open Issues: $issue_list"
+
+        echo "pr_list=$pr_list" >> $GITHUB_ENV
+        echo "Open PRs: $pr_list"
+
+    - name: Update README with current Open Issues and PRs
+      run: |
+        echo "Updating README with open issues and PRs..."
+
+        readme_file="README.md"
+        timestamp=$(date +"%H:%M:%S on %d-%b-%Y")
+
+        if [ -n "$issue_list" ]; then
+          issue_list=$(echo "$issue_list" | sed 's/twwtwwtwwtww/\n/g' | sed 's/^/- /')
+        else
+          issue_list="No open issues found."
+        fi
+
+        if [ -n "$pr_list" ]; then
+            pr_list=$(echo "$pr_list" | sed 's/twwtwwtwwtww/\n/g' | sed 's/^/- /')
+        else
+          pr_list="No open PRs found."
+        fi
+
+        new_content=$(cat <<EOF
+        # Summary  
+        ### Total Open Issues: $total_issues  
+        $issue_list  
+        ### Total Open PRs: $total_prs  
+        $pr_list  
+        #### Last Updated: $timestamp
+        EOF
+        )
+
+        escaped_new_content=$(echo "$new_content" | sed ':a;N;$!ba;s/\n/\\n/g')
+        echo "new_content: $escaped_new_content"
+
+        sed -i "/# Summary/,\$ c\\
+        $escaped_new_content" $readme_file
+
+        # Commit and push the changes
+        git add $readme_file
+        git commit -m "Auto update of README"
+        git push
