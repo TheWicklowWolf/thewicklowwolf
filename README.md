@@ -1,8 +1,10 @@
 <div align="center">
 <h1>The Wicklow Wolf Suite</h1>
-  
+
+![Made in Ireland](https://img.shields.io/badge/Made%20in%20-%20Ireland%20-%20Green?style=for-the-badge)
+
 ![GitHub User's stars](https://img.shields.io/github/stars/TheWicklowWolf?style=for-the-badge&label=Total%20Stars)
-  
+
 <a href="https://www.buymeacoffee.com/thewicklow" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 [https://thewicklowwolf.github.io/](https://thewicklowwolf.github.io/)  
