@@ -148,8 +148,8 @@
 ---
 
 # Summary  
-### Total Open Issues: 1  
-- LidaTube - issues locating dowloads etc  (https://github.com/TheWicklowWolf/LidaTube/issues/39)  
+### Total Open Issues: 0  
+No open issues found.  
 ### Total Open PRs: 1  
 - PlaylistDir - Support ascending playlist creation and sub-folders. (https://github.com/TheWicklowWolf/PlaylistDir/pull/3)  
-#### Last Updated: 18:15:24 on 27-Nov-2024
+#### Last Updated: 19:09:16 on 27-Nov-2024
