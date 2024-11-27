@@ -152,4 +152,4 @@
 - ChannelTube - Plex compatible Filesnames (https://github.com/TheWicklowWolf/ChannelTube/issues/16)  
 ### Total Open PRs: 1  
 - PlaylistDir - Support ascending playlist creation and sub-folders. (https://github.com/TheWicklowWolf/PlaylistDir/pull/3)  
-#### Last Updated: 08:15:34 on 27-Nov-2024
+#### Last Updated: 09:12:16 on 27-Nov-2024
