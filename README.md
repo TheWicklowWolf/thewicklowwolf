@@ -151,5 +151,5 @@
 ### Total Open Issues: 0  
 No open issues found.  
 ### Total Open PRs: 1  
-- PlaylistDir - Support ascending playlist creation and sub-folders. (https://github.com/TheWicklowWolf/PlaylistDir/pull/3)  
-#### Last Updated: 00:55:14 on 28-Nov-2024
+- PlaylistDir - Support ascending playlist creation (https://github.com/TheWicklowWolf/PlaylistDir/pull/3)  
+#### Last Updated: 02:55:39 on 28-Nov-2024
