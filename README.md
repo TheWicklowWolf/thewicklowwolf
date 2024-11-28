@@ -150,6 +150,6 @@
 # Summary  
 ### Total Open Issues: 0  
 No open issues found.  
-### Total Open PRs: 1  
-- PlaylistDir - Support ascending playlist creation (https://github.com/TheWicklowWolf/PlaylistDir/pull/3)  
-#### Last Updated: 09:12:32 on 28-Nov-2024
+### Total Open PRs: 0  
+No open PRs found.  
+#### Last Updated: 10:12:38 on 28-Nov-2024
