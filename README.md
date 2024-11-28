@@ -148,8 +148,8 @@
 ---
 
 # Summary  
-### Total Open Issues: 1  
-- Lidify - Notice: Spotify API breaking changes (https://github.com/TheWicklowWolf/Lidify/issues/24)  
+### Total Open Issues: 0  
+No open issues found.  
 ### Total Open PRs: 0  
 No open PRs found.  
-#### Last Updated: 10:24:08 on 28-Nov-2024
+#### Last Updated: 11:09:46 on 28-Nov-2024
