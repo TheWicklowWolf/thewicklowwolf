@@ -148,8 +148,8 @@
 ---
 
 # Summary  
-### Total Open Issues: 0  
-No open issues found.  
+### Total Open Issues: 1  
+- SpotTube - custom API accessiblity (https://github.com/TheWicklowWolf/SpotTube/issues/9)  
 ### Total Open PRs: 0  
 No open PRs found.  
-#### Last Updated: 07:10:21 on 07-Dec-2024
+#### Last Updated: 08:13:41 on 07-Dec-2024
