@@ -148,9 +148,10 @@
 ---
 
 # Summary  
-### Total Open Issues: 2  
+### Total Open Issues: 3  
 - BookBounty - Download Error on Link Found (https://github.com/TheWicklowWolf/BookBounty/issues/29)
+- Lidify - Request: search for songs via Spotify (https://github.com/TheWicklowWolf/Lidify/issues/25)
 - SpotTube - custom API accessiblity (https://github.com/TheWicklowWolf/SpotTube/issues/9)  
 ### Total Open PRs: 0  
 No open PRs found.  
-#### Last Updated: 12:20:15 on 08-Dec-2024
+#### Last Updated: 13:18:56 on 08-Dec-2024
