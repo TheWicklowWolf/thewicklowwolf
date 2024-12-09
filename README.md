@@ -148,8 +148,8 @@
 ---
 
 # Summary  
-### Total Open Issues: 0  
-No open issues found.  
+### Total Open Issues: 1  
+- BookBounty - Support Url Path (https://github.com/TheWicklowWolf/BookBounty/issues/30)  
 ### Total Open PRs: 0  
 No open PRs found.  
-#### Last Updated: 13:23:24 on 09-Dec-2024
+#### Last Updated: 14:11:34 on 09-Dec-2024
