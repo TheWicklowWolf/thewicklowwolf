@@ -148,8 +148,9 @@
 ---
 
 # Summary  
-### Total Open Issues: 1  
-- BookBounty - Support Url Path (https://github.com/TheWicklowWolf/BookBounty/issues/30)  
+### Total Open Issues: 2  
+- BookBounty - Support Url Path (https://github.com/TheWicklowWolf/BookBounty/issues/30)
+- LidaTube - ability to refresh and show the first 100 or so (https://github.com/TheWicklowWolf/LidaTube/issues/40)  
 ### Total Open PRs: 0  
 No open PRs found.  
-#### Last Updated: 16:14:48 on 09-Dec-2024
+#### Last Updated: 17:10:45 on 09-Dec-2024
