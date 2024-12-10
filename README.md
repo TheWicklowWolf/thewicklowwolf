@@ -148,8 +148,8 @@
 ---
 
 # Summary  
-### Total Open Issues: 1  
-- Syncify - No Last Synced / Songs info after latest update? (https://github.com/TheWicklowWolf/Syncify/issues/6)  
+### Total Open Issues: 0  
+No open issues found.  
 ### Total Open PRs: 0  
 No open PRs found.  
-#### Last Updated: 10:12:57 on 10-Dec-2024
+#### Last Updated: 11:10:10 on 10-Dec-2024
