@@ -148,8 +148,8 @@
 ---
 
 # Summary  
-### Total Open Issues: 0  
-No open issues found.  
+### Total Open Issues: 1  
+- LidaTube - Postprocessing error for every download (https://github.com/TheWicklowWolf/LidaTube/issues/41)  
 ### Total Open PRs: 0  
 No open PRs found.  
-#### Last Updated: 05:12:08 on 12-Dec-2024
+#### Last Updated: 06:17:12 on 12-Dec-2024
