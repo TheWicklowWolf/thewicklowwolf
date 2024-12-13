@@ -148,8 +148,8 @@
 ---
 
 # Summary  
-### Total Open Issues: 1  
-- Syncify - Authenticate and automatically retrieve playlists (https://github.com/TheWicklowWolf/Syncify/issues/7)  
+### Total Open Issues: 0  
+No open issues found.  
 ### Total Open PRs: 0  
 No open PRs found.  
-#### Last Updated: 11:09:42 on 13-Dec-2024
+#### Last Updated: 12:21:46 on 13-Dec-2024
