@@ -148,8 +148,9 @@
 ---
 
 # Summary  
-### Total Open Issues: 1  
-- LidaTube - Request: Move files onece finished and update to Lidarr (https://github.com/TheWicklowWolf/LidaTube/issues/44)  
+### Total Open Issues: 2  
+- LidaTube - Request: Move files onece finished and update to Lidarr (https://github.com/TheWicklowWolf/LidaTube/issues/44)
+- SpotTube - Cannot see/find downloaded files (https://github.com/TheWicklowWolf/SpotTube/issues/10)  
 ### Total Open PRs: 0  
 No open PRs found.  
-#### Last Updated: 17:10:47 on 17-Dec-2024
+#### Last Updated: 18:16:04 on 17-Dec-2024
