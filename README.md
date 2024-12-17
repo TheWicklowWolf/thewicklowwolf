@@ -148,8 +148,8 @@
 ---
 
 # Summary  
-### Total Open Issues: 0  
-No open issues found.  
+### Total Open Issues: 1  
+- LidaTube - Request: Move files onece finished and update to Lidarr (https://github.com/TheWicklowWolf/LidaTube/issues/44)  
 ### Total Open PRs: 0  
 No open PRs found.  
-#### Last Updated: 14:11:27 on 17-Dec-2024
+#### Last Updated: 15:12:12 on 17-Dec-2024
