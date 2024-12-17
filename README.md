@@ -52,22 +52,22 @@
 ---
 
 <div align="center">
-<img src="https://github.com/TheWicklowWolf/SonaShow/blob/main/src/static/sonashow.png" alt="image" width="400">
-</div>
-
-[**SonaShow**](https://github.com/TheWicklowWolf/SonaShow) - Show discovery tool that provides recommendations based on selected Sonarr shows, using TMDB.
-
-![Docker Pulls](https://img.shields.io/docker/pulls/thewicklowwolf/sonashow) ![Issues](https://img.shields.io/github/issues/TheWicklowWolf/SonaShow) ![PRs](https://img.shields.io/github/issues-pr/TheWicklowWolf/SonaShow) ![Latest DockerHub Version](https://img.shields.io/docker/v/thewicklowwolf/sonashow?sort=semver) ![Release Date](https://img.shields.io/github/release-date/thewicklowwolf/sonashow) ![Image Size](https://img.shields.io/docker/image-size/thewicklowwolf/sonashow/latest) ![Workflow Status](https://img.shields.io/github/actions/workflow/status/TheWicklowWolf/SonaShow/main.yml) ![Forks](https://img.shields.io/github/forks/TheWicklowWolf/SonaShow?style=flat) ![GitHub stars](https://img.shields.io/github/stars/TheWicklowWolf/SonaShow?style=flat)
-
----
-
-<div align="center">
 <img src="https://github.com/TheWicklowWolf/SpotTube/blob/main/src/static/spottube.png" alt="image" width="400">
 </div>
 
 [**SpotTube**](https://github.com/TheWicklowWolf/SpotTube) - Download Spotify playlists, artists, albums, or tracks via yt-dlp.
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/thewicklowwolf/spottube) ![Issues](https://img.shields.io/github/issues/TheWicklowWolf/SpotTube) ![PRs](https://img.shields.io/github/issues-pr/TheWicklowWolf/SpotTube) ![Latest DockerHub Version](https://img.shields.io/docker/v/thewicklowwolf/spottube?sort=semver) ![Release Date](https://img.shields.io/github/release-date/thewicklowwolf/spottube) ![Image Size](https://img.shields.io/docker/image-size/thewicklowwolf/spottube/latest) ![Workflow Status](https://img.shields.io/github/actions/workflow/status/TheWicklowWolf/SpotTube/main.yml) ![Forks](https://img.shields.io/github/forks/TheWicklowWolf/SpotTube?style=flat) ![GitHub stars](https://img.shields.io/github/stars/TheWicklowWolf/SpotTube?style=flat)
+
+---
+
+<div align="center">
+<img src="https://github.com/TheWicklowWolf/SonaShow/blob/main/src/static/sonashow.png" alt="image" width="400">
+</div>
+
+[**SonaShow**](https://github.com/TheWicklowWolf/SonaShow) - Show discovery tool that provides recommendations based on selected Sonarr shows, using TMDB.
+
+![Docker Pulls](https://img.shields.io/docker/pulls/thewicklowwolf/sonashow) ![Issues](https://img.shields.io/github/issues/TheWicklowWolf/SonaShow) ![PRs](https://img.shields.io/github/issues-pr/TheWicklowWolf/SonaShow) ![Latest DockerHub Version](https://img.shields.io/docker/v/thewicklowwolf/sonashow?sort=semver) ![Release Date](https://img.shields.io/github/release-date/thewicklowwolf/sonashow) ![Image Size](https://img.shields.io/docker/image-size/thewicklowwolf/sonashow/latest) ![Workflow Status](https://img.shields.io/github/actions/workflow/status/TheWicklowWolf/SonaShow/main.yml) ![Forks](https://img.shields.io/github/forks/TheWicklowWolf/SonaShow?style=flat) ![GitHub stars](https://img.shields.io/github/stars/TheWicklowWolf/SonaShow?style=flat)
 
 ---
 
